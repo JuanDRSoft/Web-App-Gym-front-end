@@ -31,6 +31,16 @@ const FormularioContacto = () => {
         </div>
 
         <div className="mt-5">
+          <label className="text-lg">Tipo de empresa:</label>
+          <select className="border-2 w-full p-3 mt-2">
+            <option>Selecciona una opción</option>
+            {modelosNegocio.map((modelo) => (
+              <option>{modelo}</option>
+            ))}
+          </select>
+        </div>
+
+        <div className="mt-5">
           <label className="text-lg">Nombre de empresa:</label>
           <input
             type="text"
