@@ -28,14 +28,14 @@ const Inicio = () => {
             Gana clientes, fideliza tus clientes y aumenta tu eficiencia
           </p>
           <div className="md:flex md:justify-start  mt-5 gap-5">
-            <button className="bg-gradient-to-r from-orange-500 to-orange-700 rounded-md p-2 px-4 text-white font-bold uppercase shadow-xl hover:to-orange-800">
+            <a className="bg-gradient-to-r from-orange-500 to-orange-700 rounded-md p-2 px-4 text-white font-bold uppercase shadow-xl hover:to-orange-800">
               La quiero probar !
-            </button>
+            </a>
 
             <a
               href="https://wa.link/jt4z0p"
               target="_blank"
-              className="mt-3 md:mt-0 bg-black rounded-md p-2 px-4 text-white font-bold uppercase flex gap-2 shadow-xl hover:bg-gray-600 duration-200 items-center"
+              className="mt-5 md:mt-0 bg-black rounded-md p-2 px-4 text-white font-bold uppercase w-40 md:w-auto flex gap-2 shadow-xl hover:bg-gray-600 duration-200 items-center"
             >
               <img src={Contacto} className="w-6" />
               Contacto
