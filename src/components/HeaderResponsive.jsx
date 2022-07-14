@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const HeaderResponsive = () => {
   return (
-    <div className="flex">
+    <div className="flex md:-z-10 z-10">
       <div className="md:absolute md:-z-10 top-16 w-56 text-right">
         <Menu as="div" className="relative inline-block text-left">
           <div>
