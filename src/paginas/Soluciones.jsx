@@ -1,4 +1,5 @@
 import React from "react";
+import SolucionEntrenadores from "../components/SolucionEntrenadores";
 import SolucionGimnasios from "../components/SolucionGimnasios";
 import Banner from "../img/soluciones.jpg";
 
@@ -23,6 +24,8 @@ const Soluciones = () => {
       <img src={Banner} className="md:w-full  h-64 md:h-auto -z-10" />
 
       <SolucionGimnasios />
+
+      <SolucionEntrenadores />
     </div>
   );
 };

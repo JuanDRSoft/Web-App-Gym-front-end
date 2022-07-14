@@ -19,7 +19,7 @@ const SolucionGimnasios = () => {
     <div className="mt-10">
       <p className="text-center font-bold text-4xl">¿Como lo haremos?</p>
 
-      <div className="md:flex mt-24 gap-5 items-center">
+      <div className="md:flex mt-14 gap-5 items-center">
         <div className="flex-1">
           <img src={Gimnasios} />
         </div>
