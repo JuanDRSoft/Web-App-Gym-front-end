@@ -39,7 +39,7 @@ const HeaderResponsive = () => {
                 <Menu.Item>
                   {({ active }) => (
                     <Link
-                      to="Soluciones"
+                      to="/soluciones"
                       className={`${
                         active
                           ? "bg-gradient-to-r from-orange-500 to-orange-700 text-white"
@@ -70,7 +70,7 @@ const HeaderResponsive = () => {
                 <Menu.Item>
                   {({ active }) => (
                     <Link
-                      to="Sistema"
+                      to="/sistema"
                       className={`${
                         active
                           ? "bg-gradient-to-r from-orange-500 to-orange-700 text-white"
@@ -101,7 +101,7 @@ const HeaderResponsive = () => {
                 <Menu.Item>
                   {({ active }) => (
                     <Link
-                      to="Precios"
+                      to="/precios"
                       className={`${
                         active
                           ? "bg-gradient-to-r from-orange-500 to-orange-700 text-white"
@@ -132,7 +132,7 @@ const HeaderResponsive = () => {
                 <Menu.Item>
                   {({ active }) => (
                     <Link
-                      to="Soporte"
+                      to="/soporte"
                       className={`${
                         active
                           ? "bg-gradient-to-r from-orange-500 to-orange-700 text-white"

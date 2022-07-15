@@ -12,10 +12,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<Inicio />} />
-          <Route path="Soluciones" element={<Soluciones />} />
-          <Route path="Sistema" element={<Sistema />} />
-          <Route path="Precios" element={<Precios />} />
-          <Route path="Soporte" element={<Soporte />} />
+          <Route path="soluciones" element={<Soluciones />} />
+          <Route path="sistema" element={<Sistema />} />
+          <Route path="precios" element={<Precios />} />
+          <Route path="soporte" element={<Soporte />} />
         </Route>
       </Routes>
     </BrowserRouter>
