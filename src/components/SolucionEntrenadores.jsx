@@ -16,7 +16,7 @@ const check = [
 
 const SolucionEntrenadores = () => {
   return (
-    <div className="flex mt-10 bg-gray-100 items-center">
+    <div className="md:flex mt-10 bg-gray-100 items-center">
       <div className="flex-1 px-5 pt-5">
         <p className="font-bold text-6xl text-orange-500 text-center">
           Entrenadores
