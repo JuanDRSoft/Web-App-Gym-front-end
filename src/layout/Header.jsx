@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useLocation } from "react-router-dom";
 import HeaderResponsive from "../components/HeaderResponsive";
 import Logo from "../img/logo.png";
 
 const Header = () => {
+  let location = useLocation();
+
   return (
     <>
       <div className="bg-white shadow-xl">
@@ -18,25 +20,41 @@ const Header = () => {
 
           <Link
             to="/soluciones"
-            className="font-semibold mr-10 hover:text-orange-500 cursor-pointer text-lg md:z-0 -z-10 absolute md:relative md:visible invisible"
+            className={`${
+              location.pathname === "/soluciones"
+                ? "text-orange-500"
+                : "hover:text-orange-500"
+            } font-semibold mr-10 cursor-pointer text-lg md:z-0 -z-10 absolute md:relative md:visible invisible`}
           >
             Soluciones
           </Link>
           <Link
             to="/sistema"
-            className="font-semibold mr-10 hover:text-orange-500 cursor-pointer text-lg md:z-0 -z-10 absolute md:relative md:visible invisible"
+            className={`${
+              location.pathname === "/sistema"
+                ? "text-orange-500"
+                : "hover:text-orange-500"
+            } font-semibold mr-10 cursor-pointer text-lg md:z-0 -z-10 absolute md:relative md:visible invisible`}
           >
             Sistema
           </Link>
           <Link
             to="/precios"
-            className="font-semibold mr-10 hover:text-orange-500 cursor-pointer text-lg md:z-0 -z-10 absolute md:relative md:visible invisible"
+            className={`${
+              location.pathname === "/precios"
+                ? "text-orange-500"
+                : "hover:text-orange-500"
+            } font-semibold mr-10 cursor-pointer text-lg md:z-0 -z-10 absolute md:relative md:visible invisible`}
           >
             Precios
           </Link>
           <Link
             to="/soporte"
-            className="font-semibold mr-10 hover:text-orange-500 cursor-pointer text-lg md:z-0 -z-10 absolute md:relative md:visible invisible"
+            className={`${
+              location.pathname === "/soporte"
+                ? "text-orange-500"
+                : "hover:text-orange-500"
+            } font-semibold mr-10 cursor-pointer text-lg md:z-0 -z-10 absolute md:relative md:visible invisible`}
           >
             Soporte
           </Link>
