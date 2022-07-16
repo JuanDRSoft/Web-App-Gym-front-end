@@ -1,6 +1,6 @@
 import React from "react";
 
-const modelosNegocio = ["Gimnasio", "Box", "Entrenador Personal", "Otro"];
+const modelosNegocio = ["Gimnasio", "Entrenador Personal", "Otro"];
 
 const FormularioContacto = () => {
   return (
