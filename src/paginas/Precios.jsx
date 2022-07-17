@@ -6,7 +6,7 @@ const Precios = () => {
   return (
     <div className="md:flex md:p-10 p-5 gap-4">
       <div className="shadow-xl rounded-md border flex-1 ">
-        <p className="text-orange-500 font-bold text-center text-5xl pt-20">
+        <p className="text-orange-500 font-bold text-center text-5xl md:pt-20 pt-10">
           Gimnasios
         </p>
 
@@ -25,7 +25,7 @@ const Precios = () => {
       </div>
 
       <div className="shadow-xl rounded-md border flex-1 mt-10 md:mt-0">
-        <p className="font-bold text-center pt-20 text-orange-500 text-5xl">
+        <p className="font-bold text-center md:pt-20 pt-10 text-orange-500 text-5xl">
           Entrenadores
         </p>
 
