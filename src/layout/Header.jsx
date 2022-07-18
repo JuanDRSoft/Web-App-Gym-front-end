@@ -41,7 +41,9 @@ const Header = () => {
           <Link
             to="/precios"
             className={`${
-              location.pathname === "/precios"
+              location.pathname === "/precios" ||
+              location.pathname === "/precios-de-gimnasios" ||
+              location.pathname === "/precios-de-entrenadores"
                 ? "text-orange-500"
                 : "hover:text-orange-500"
             } font-semibold mr-10 cursor-pointer text-lg md:z-0 -z-10 absolute md:relative md:visible invisible`}

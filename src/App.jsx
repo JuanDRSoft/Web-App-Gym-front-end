@@ -2,6 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./layout/Header";
 import Inicio from "./paginas/Inicio";
 import Precios from "./paginas/Precios";
+import PreciosEntrenadores from "./paginas/PreciosEntrenadores";
+import PreciosGimnasios from "./paginas/PreciosGimnasios";
 import Sistema from "./paginas/Sistema";
 import Soluciones from "./paginas/Soluciones";
 import Soporte from "./paginas/Soporte";
@@ -16,6 +18,11 @@ function App() {
           <Route path="sistema" element={<Sistema />} />
           <Route path="precios" element={<Precios />} />
           <Route path="soporte" element={<Soporte />} />
+          <Route path="precios-de-gimnasios" element={<PreciosGimnasios />} />
+          <Route
+            path="precios-de-entrenadores"
+            element={<PreciosEntrenadores />}
+          />
         </Route>
       </Routes>
     </BrowserRouter>
