@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Entrenadores from "../img/entrenadores.png";
 
 const check = [
@@ -16,7 +17,7 @@ const check = [
 
 const SolucionEntrenadores = () => {
   return (
-    <div className="md:flex mt-10 bg-gray-100 items-center">
+    <div className="md:flex mt-10 bg-gray-100 items-center 2xl:px-44">
       <div className="flex-1 px-5 pt-5">
         <p className="font-bold text-6xl text-orange-500 text-center">
           Entrenadores
@@ -51,9 +52,12 @@ const SolucionEntrenadores = () => {
         </p>
 
         <div className="flex justify-center">
-          <button className="mt-5 bg-gradient-to-r from-orange-500 to-orange-700 font-bold uppercase p-2 text-white rounded-md shadow-xl hover:to-orange-800">
+          <Link
+            to="/precios-de-entrenadores"
+            className="mt-5 bg-gradient-to-r from-orange-500 to-orange-700 font-bold uppercase p-2 text-white rounded-md shadow-xl hover:to-orange-800"
+          >
             ver precios
-          </button>
+          </Link>
         </div>
       </div>
 

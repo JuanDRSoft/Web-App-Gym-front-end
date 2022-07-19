@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Gimnasios from "../img/gimnasios.png";
 
 const check = [
@@ -16,7 +17,7 @@ const check = [
 
 const SolucionGimnasios = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10 2xl:px-44">
       <p className="text-center font-bold text-4xl">¿Como lo haremos?</p>
 
       <div className="md:flex mt-14 gap-5 items-center">
@@ -55,9 +56,12 @@ const SolucionGimnasios = () => {
           </p>
 
           <div className="flex justify-center mt-5 mb-5">
-            <button className="uppercase p-2 bg-gradient-to-r from-orange-500 to-orange-700 text-white font-bold rounded-md shadow-xl hover:to-orange-800">
+            <Link
+              to="/precios-de-gimnasios"
+              className="uppercase p-2 bg-gradient-to-r from-orange-500 to-orange-700 text-white font-bold rounded-md shadow-xl hover:to-orange-800"
+            >
               ver precios
-            </button>
+            </Link>
           </div>
         </div>
       </div>
