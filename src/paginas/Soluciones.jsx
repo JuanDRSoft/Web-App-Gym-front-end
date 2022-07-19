@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SolucionEntrenadores from "../components/SolucionEntrenadores";
 import SolucionGimnasios from "../components/SolucionGimnasios";
 import Banner from "../img/soluciones.jpg";
@@ -16,9 +17,14 @@ const Soluciones = () => {
           fitness.
         </p>
 
-        <button className="bg-gradient-to-r from-orange-500 to-orange-700 p-3 mt-7 text-white font-bold uppercase rounded-md">
-          Prueba gratis
-        </button>
+        <div className="mt-7">
+          <Link
+            to="/prueba-gratuita"
+            className="bg-gradient-to-r from-orange-500 to-orange-700 p-3 text-white font-bold uppercase rounded-md"
+          >
+            Prueba gratis
+          </Link>
+        </div>
       </div>
 
       <img src={Banner} className="md:w-full  h-64 md:h-auto -z-10" />

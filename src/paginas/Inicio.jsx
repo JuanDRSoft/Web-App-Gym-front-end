@@ -11,6 +11,7 @@ import Capta from "../img/capta.png";
 import Eficiencia from "../img/eficiencia.png";
 import Ecosistema from "../img/ecosistema.png";
 import FormularioContacto from "../components/FormularioContacto";
+import { Link } from "react-router-dom";
 
 const Inicio = () => {
   return (
@@ -28,9 +29,12 @@ const Inicio = () => {
             Gana clientes, fideliza tus clientes y aumenta tu eficiencia
           </p>
           <div className="md:flex md:justify-start  mt-5 gap-5">
-            <a className="bg-gradient-to-r from-orange-500 to-orange-700 rounded-md p-2 px-4 text-white font-bold uppercase shadow-xl hover:to-orange-800">
+            <Link
+              to="/prueba-gratuita"
+              className="bg-gradient-to-r from-orange-500 to-orange-700 rounded-md p-2 px-4 text-white font-bold uppercase shadow-xl hover:to-orange-800"
+            >
               La quiero probar !
-            </a>
+            </Link>
 
             <a
               href="https://wa.link/jt4z0p"
