@@ -52,7 +52,7 @@ const PreciosGimnasios = () => {
           </p>
         </div>
 
-        <div className="md:flex justify-center text-center md:px-40 2xl:px-80 mb-20">
+        <div className="md:flex justify-center text-center md:px-40 2xl:px-80 md:mb-20">
           <div className="flex-1 md:py-5">
             <p className="uppercase font-semibold md:text-xl text-orange-500">
               Caracteristicas
