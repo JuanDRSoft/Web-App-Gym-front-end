@@ -67,6 +67,7 @@ const PreciosGimnasios = () => {
             <p className="border-b py-2">Registro de entrenadores</p>
             <p className="border-b py-2">Gestor de contenidos audiovisuales</p>
             <p className="border-b py-2">Control de asistencias</p>
+            <p className="border-b py-2">Catalogo de productos para clientes</p>
           </div>
         </div>
 
@@ -81,6 +82,7 @@ const PreciosGimnasios = () => {
             <p className="border-b py-2">{Not}</p>
             <p className="border-b py-2">{Not}</p>
             <p className="border-b py-2">{yes}</p>
+            <p className="border-b py-2">{Not}</p>
             <p className="border-b py-2">{Not}</p>
             <p className="border-b py-2">{Not}</p>
             <p className="border-b py-2">{Not}</p>
@@ -105,6 +107,7 @@ const PreciosGimnasios = () => {
           <div className="mt-5 text-lg">
             <p className="py-2">Usuarios ilimitados</p>
             <p className="py-2">Hasta 10 administradores</p>
+            <p className="py-2">{yes}</p>
             <p className="py-2">{yes}</p>
             <p className="py-2">{yes}</p>
             <p className="py-2">{yes}</p>
