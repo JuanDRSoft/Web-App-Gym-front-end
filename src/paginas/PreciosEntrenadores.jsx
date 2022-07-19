@@ -104,7 +104,7 @@ const PreciosEntrenadores = () => {
           </p>
 
           <div className="mt-5 text-lg">
-            <p className="py-2">Hasta 50</p>
+            <p className="py-2">Hasta 50 usuarios</p>
             <p className="py-2">Hasta 5 administradores</p>
             <p className="py-2">{yes}</p>
             <p className="py-2">{yes}</p>

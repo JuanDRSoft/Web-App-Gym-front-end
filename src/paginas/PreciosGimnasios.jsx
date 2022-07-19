@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PreciosGimnasiosResponsive from "../components/PreciosGimnasiosResponsive";
 
 const yes = [
   <div className="flex justify-center text-orange-500">
@@ -37,7 +38,9 @@ const Not = [
 
 const PreciosGimnasios = () => {
   return (
-    <div>
+    <div className="invisible md:visible">
+      <PreciosGimnasiosResponsive />
+
       <div className="mt-20 mb-10">
         <p className="font-semibold uppercase text-orange-500 text-4xl text-center">
           Easytraining en tu gimnasio
