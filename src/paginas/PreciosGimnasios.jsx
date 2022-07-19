@@ -38,99 +38,105 @@ const Not = [
 
 const PreciosGimnasios = () => {
   return (
-    <div className="invisible md:visible">
+    <div>
       <PreciosGimnasiosResponsive />
 
-      <div className="mt-20 mb-10">
-        <p className="font-semibold uppercase text-orange-500 text-4xl text-center">
-          Easytraining en tu gimnasio
-        </p>
-
-        <p className="text-xl mt-5 text-center">
-          Escoge el plan que satisface todas tus necesidades como gimnasio
-        </p>
-      </div>
-
-      <div className="md:flex justify-center text-center px-40 2xl:px-80 mb-20">
-        <div className="flex-1 py-5">
-          <p className="uppercase font-semibold text-xl text-orange-500">
-            Caracteristicas
+      <div className="invisible md:visible">
+        <div className="md:mt-20 md:mb-10">
+          <p className="font-semibold uppercase text-orange-500 md:text-4xl text-center">
+            Easytraining en tu gimnasio
           </p>
 
-          <div className="mt-5 text-lg text-start">
-            <p className="border-b py-2">Usuarios registrados</p>
-            <p className="border-b py-2">
-              Usuarios administradores registrados
-            </p>
-            <p className="border-b py-2">App totalmente personalizada</p>
-            <p className="border-b py-2">
-              App mobile para clientes totalmente personalizada
-            </p>
-            <p className="border-b py-2">Editor de entreno personalizado</p>
-            <p className="border-b py-2">Registro de entrenadores</p>
-            <p className="border-b py-2">Gestor de contenidos audiovisuales</p>
-            <p className="border-b py-2">Control de asistencias</p>
-            <p className="border-b py-2">Catalogo de productos para clientes</p>
-          </div>
+          <p className="md:text-xl md:mt-5 text-center">
+            Escoge el plan que satisface todas tus necesidades como gimnasio
+          </p>
         </div>
 
-        <div className="py-5">
-          <p className="uppercase font-semibold text-xl text-orange-500 mr-16 ml-16">
-            Plan gratuito
-          </p>
-
-          <div className="mt-5 text-lg">
-            <p className="border-b py-2">Hasta 50 usuarios</p>
-            <p className="border-b py-2">Hasta 1 administrador</p>
-            <p className="border-b py-2">{Not}</p>
-            <p className="border-b py-2">{Not}</p>
-            <p className="border-b py-2">{yes}</p>
-            <p className="border-b py-2">{Not}</p>
-            <p className="border-b py-2">{Not}</p>
-            <p className="border-b py-2">{Not}</p>
-            <p className="border-b py-2">{Not}</p>
-            <p className="py-2 uppercase font-semibold text-orange-500 text-2xl mb-5">
-              Gratis
+        <div className="md:flex justify-center text-center md:px-40 2xl:px-80 mb-20">
+          <div className="flex-1 md:py-5">
+            <p className="uppercase font-semibold md:text-xl text-orange-500">
+              Caracteristicas
             </p>
 
-            <Link
-              to=""
-              className="shadow-xl bg-gradient-to-r from-orange-500 to-orange-700 hover:to-orange-800 p-2 uppercase rounded-md text-white font-bold"
-            >
-              Lo quiero
-            </Link>
+            <div className="md:mt-5 text-lg text-start">
+              <p className="border-b py-2">Usuarios registrados</p>
+              <p className="border-b py-2">
+                Usuarios administradores registrados
+              </p>
+              <p className="border-b py-2">App totalmente personalizada</p>
+              <p className="border-b py-2">
+                App mobile para clientes totalmente personalizada
+              </p>
+              <p className="border-b py-2">Editor de entreno personalizado</p>
+              <p className="border-b py-2">Registro de entrenadores</p>
+              <p className="border-b py-2">
+                Gestor de contenidos audiovisuales
+              </p>
+              <p className="border-b py-2">Control de asistencias</p>
+              <p className="border-b py-2">
+                Catalogo de productos para clientes
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="rounded-2xl border shadow-2xl py-5">
-          <p className="uppercase font-semibold text-xl text-orange-500 mr-16 ml-16">
-            Plan Premium
-          </p>
-
-          <div className="mt-5 text-lg">
-            <p className="py-2">Usuarios ilimitados</p>
-            <p className="py-2">Hasta 10 administradores</p>
-            <p className="py-2">{yes}</p>
-            <p className="py-2">{yes}</p>
-            <p className="py-2">{yes}</p>
-            <p className="py-2">{yes}</p>
-            <p className="py-2">{yes}</p>
-            <p className="py-2">{yes}</p>
-            <p className="py-2">{yes}</p>
-            <p className="pt-2 font-semibold text-orange-500 text-2xl">
-              1.000 COP / Usuario
-            </p>
-            <p className="font-semibold text-orange-500 text-xl mb-5">
-              Mensualmente
+          <div className="md:py-5">
+            <p className="uppercase font-semibold text-xl text-orange-500 md:mr-16 md:ml-16">
+              Plan gratuito
             </p>
 
-            <a
-              href="https://wa.link/0jxga7"
-              target="_blank"
-              className="shadow-xl bg-gradient-to-r from-orange-500 to-orange-700 hover:to-orange-800 p-2 uppercase rounded-md text-white font-bold"
-            >
-              Lo quiero
-            </a>
+            <div className="md:mt-5 text-lg">
+              <p className="border-b py-2">Hasta 50 usuarios</p>
+              <p className="border-b py-2">Hasta 1 administrador</p>
+              <p className="border-b py-2">{Not}</p>
+              <p className="border-b py-2">{Not}</p>
+              <p className="border-b py-2">{yes}</p>
+              <p className="border-b py-2">{Not}</p>
+              <p className="border-b py-2">{Not}</p>
+              <p className="border-b py-2">{Not}</p>
+              <p className="border-b py-2">{Not}</p>
+              <p className="py-2 uppercase font-semibold text-orange-500 text-2xl md:mb-5">
+                Gratis
+              </p>
+
+              <Link
+                to=""
+                className="shadow-xl bg-gradient-to-r from-orange-500 to-orange-700 hover:to-orange-800 p-2 uppercase rounded-md text-white font-bold"
+              >
+                Lo quiero
+              </Link>
+            </div>
+          </div>
+
+          <div className="rounded-2xl border shadow-2xl py-5">
+            <p className="uppercase font-semibold text-xl text-orange-500 mr-16 ml-16">
+              Plan Premium
+            </p>
+
+            <div className="md:mt-5 text-lg">
+              <p className="py-2">Usuarios ilimitados</p>
+              <p className="py-2">Hasta 10 administradores</p>
+              <p className="py-2">{yes}</p>
+              <p className="py-2">{yes}</p>
+              <p className="py-2">{yes}</p>
+              <p className="py-2">{yes}</p>
+              <p className="py-2">{yes}</p>
+              <p className="py-2">{yes}</p>
+              <p className="py-2">{yes}</p>
+              <p className="md:pt-2 font-semibold text-orange-500 text-2xl">
+                1.000 COP / Usuario
+              </p>
+              <p className="font-semibold text-orange-500 text-xl md:mb-5">
+                Mensualmente
+              </p>
+
+              <a
+                href="https://wa.link/0jxga7"
+                target="_blank"
+                className="shadow-xl bg-gradient-to-r from-orange-500 to-orange-700 hover:to-orange-800 p-2 uppercase rounded-md text-white font-bold"
+              >
+                Lo quiero
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -37,7 +37,7 @@ const Not = [
 
 const PreciosGimnasiosResponsive = () => {
   return (
-    <div className="md:invisible visible md:absolute">
+    <div className="md:invisible visible absolute md:flex">
       <div className="mt-10 mb-10">
         <p className="font-semibold uppercase text-orange-500 text-3xl text-center">
           Easytraining en tu gimnasio
