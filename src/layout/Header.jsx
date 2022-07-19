@@ -61,7 +61,7 @@ const Header = () => {
             Soporte
           </Link>
           <Link
-            to="/"
+            to="/prueba-gratuita"
             className="md:font-bold md:uppercase md:bg-gradient-to-r from-orange-500 to-orange-700 md:text-white md:p-3 md:rounded-md md:shadow-md md:hover:to-orange-600 md:z-0 md:relative -z-10 absolute md:visible invisible"
           >
             Prueba gratuita

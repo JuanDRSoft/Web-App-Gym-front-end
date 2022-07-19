@@ -4,6 +4,7 @@ import Inicio from "./paginas/Inicio";
 import Precios from "./paginas/Precios";
 import PreciosEntrenadores from "./paginas/PreciosEntrenadores";
 import PreciosGimnasios from "./paginas/PreciosGimnasios";
+import PruebaGratis from "./paginas/PruebaGratis";
 import Sistema from "./paginas/Sistema";
 import Soluciones from "./paginas/Soluciones";
 import Soporte from "./paginas/Soporte";
@@ -23,6 +24,7 @@ function App() {
             path="precios-de-entrenadores"
             element={<PreciosEntrenadores />}
           />
+          <Route path="prueba-gratuita" element={<PruebaGratis />} />
         </Route>
       </Routes>
     </BrowserRouter>

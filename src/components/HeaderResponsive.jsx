@@ -163,7 +163,8 @@ const HeaderResponsive = () => {
                 <Menu.Item>
                   {({ active }) => (
                     <div className="p-3">
-                      <button
+                      <Link
+                        to="/prueba-gratuita"
                         className={`${
                           active
                             ? "bg-gradient-to-r from-orange-500 to-orange-800 text-black"
@@ -171,7 +172,7 @@ const HeaderResponsive = () => {
                         } w-full items-center rounded-md p-2 text-lg font-bold justify-center uppercase shadow-xl`}
                       >
                         Prueba Gratuita
-                      </button>
+                      </Link>
                     </div>
                   )}
                 </Menu.Item>
