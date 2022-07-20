@@ -97,7 +97,7 @@ const PreciosEntrenadores = () => {
               </p>
 
               <Link
-                to=""
+                to="/prueba-gratuita"
                 className="shadow-xl bg-gradient-to-r from-orange-500 to-orange-700 hover:to-orange-800 p-2 uppercase rounded-md text-white font-bold"
               >
                 Lo quiero
