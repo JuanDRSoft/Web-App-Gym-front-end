@@ -8,12 +8,12 @@ import TikTok from "../img/tik-tok.png";
 
 const Soporte = () => {
   return (
-    <div className="md:mt-20 mt-10 md:flex justify-center md:gap-10">
+    <div className="mt-10 md:flex justify-center md:gap-10">
       <div className="p-2 md:p-0">
         <FormularioContacto />
       </div>
 
-      <div className="p-10 md:p-0">
+      <div className="p-10 md:mt-10 md:p-0">
         <img src={Logo} className="w-96 md:w-full" />
         <div className="mt-16">
           <a
